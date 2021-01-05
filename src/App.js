@@ -15,6 +15,7 @@ function App() {
             setBasket(basket + 1);
         };
 
+    //you determine the dev state be uncommenting this code
     //if (process.env.NODE_ENV !== 'development') {
       // do some logic
     //} else {
@@ -23,7 +24,7 @@ function App() {
 
     return (
         <Fragment>
-            <BrowserRouter basename="/AmeyawBuild">
+            <BrowserRouter basename="/AmeyawBuild"> //location on the server.
                 <Navbar basketNumber={basket} />
                 <Switch>
                     <Route exact path="/" render={() => <Home myFunc={addToBasket} />} />
