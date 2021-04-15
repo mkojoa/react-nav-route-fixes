@@ -19,7 +19,7 @@ function App() {
     //if (process.env.NODE_ENV !== 'development') {
       // do some logic
     //} else {
-    //    some cool logic
+    //    some cool logic here
     //}
 
     return (
