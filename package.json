@@ -34,5 +34,5 @@
     ]
   },
   "devDependencies": {},
-  "homepage": "http://psl-app-vm3/AmeyawBuild" // folder name on iis sever
+  "homepage": "http://psl-app-vm3/appname" // folder name on iis sever
 }
